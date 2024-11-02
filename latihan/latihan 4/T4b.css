@@ -64,14 +64,14 @@ body{
 .header{
 	padding: 20px;
 	padding-bottom: 5px;
-    background-image: url(img/menu.webp);
+    
 }
 
 .header .judul{
 	font-size: 40px;
 	font-weight: bold;
     text-align: center;
-	color:  black;
+	color:#793005;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -149,16 +149,17 @@ ul{
 	font-size: 12px;
 
 }
-div{
+.container{
     background-color:#faebd7;
 }
-.menu h2{
+
+.menu .judul{
 	text-align: center;
 	font-size: 30px;
 	padding: 10px;
-	font-variant: small-caps;
-	font-family: 'Courier New', Courier, monospace;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-weight: bold;
+	color: #793005;
 }
 .menu-item1{
 	text-align:left;
@@ -216,7 +217,7 @@ div{
 	width: 180px;
 	height: 150px;
 	padding: 60px;
-	margin: 0px 0px 0px 170px;
+	margin: 0px 0px 0px 90px;
 }
 .adalah1 {
 	display: flex;
@@ -231,7 +232,7 @@ div{
 	width: 180px;
 	height: 150px;
 	padding: 60px;
-	margin: 0px 0px 0px 170px;
+	margin: 0px 0px 0px 90px;
 }
 .adalah2{
 	display: flex;
@@ -247,13 +248,27 @@ div{
 	width: 180px;
 	height: 150px;
 	padding: 60px;
-	margin: 0px 0px 0px 170px;
+	margin: 0px 0px 0px 90px;
 	
 }
 
 .adalah3{
 	display: flex;
 }
+
+.menu{
+	background-image: url(img/menu.webp);
+	margin: 0px 30px;
+	
+}
+ .menu h2{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: bold;
+	text-align: center;
+ }
+
+
+
 
 
 
