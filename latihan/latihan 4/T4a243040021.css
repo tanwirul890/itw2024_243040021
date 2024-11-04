@@ -47,8 +47,6 @@ table {
 	border-spacing: 0;
 }
 
-/* style */
-
 body{
     font: 16px / 28px arial,sans-serif;
     background-color: #eaeaea;
@@ -93,11 +91,12 @@ body{
 
 }
 .hero{
-	height: 300px;
+	height: 335px;
 	background-image:url(img/foto.avif) ;
 	background-size:cover;
 	border-bottom: 5px solid salmon;
 	border-top: 5px solid skyblue;
+	background-position:0px -210px ;
 }
 .content{
 	padding: 20px; 
