@@ -118,8 +118,8 @@ ul{
 .content h2{
 	font-size: 20px;
 	 font-weight:bold ;
-	 font-variant: small-caps;
-	 font-family:   Georgia, 'Times New Roman', Times, serif ;
+	 font-variant:small-caps;
+	 font-family: Georgia, 'Times New Roman', Times, serif ;
 }
 
 .content .penulis{
@@ -143,12 +143,8 @@ ul{
 
 
 
-.footer .copy{
-	color: #eaeaea;
-	text-align: center;
-	font-size: 12px;
 
-}
+
 .container{
     background-color:#faebd7;
 }
