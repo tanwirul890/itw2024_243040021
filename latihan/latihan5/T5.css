@@ -54,8 +54,8 @@ body{
 
 }
 .hero{
-    height: 300px;
-	background-image:url(img/onp2wkkl) ;
+    height: 600px;
+	background-image:url(img/onp2wkkl.png) ;
 	background-size:cover;
 	border-bottom: 5px solid rgb(118, 57, 13);
 	border-top: 5px solid #bc5519 ;
@@ -95,71 +95,58 @@ body{
 .judul-menu{
 	font-size: 20px ;
 	margin: 50px 50px;
+	padding: 50px;
 	font-weight: bold;
 	font-family:Verdana;
 	text-align: center;
 	color: #793005;
 }
 
-.menu{
-	width:710px;
-	background-color: white;
-	padding:30px;
-	margin: auto;
-	box-shadow: 0px 0px 1px 1px;
-	border-radius:7px;
-}
 
-.list-menu li{
-     width:120px;
-	 height: 120px;
-	 border-radius:50%;
-	 border: 5px solid #666;
-	 float: left ;
-	 position: relative;
-	 margin: 30px 75px 30px 30px;
-}
-
-.list-menu li span{
-	display: block;
-	width:120px;
-	height: 120px;
-	background-color: rgba(235, 228, 228, 0.5);
-	color: black;
-	border-radius: 50%;
-	position: absolute;
-	top: 0;
-	text-align: center;
-	line-height: 120px;
-	opacity: 0;
-	transition: 0.3s;
-	transform: scale(0) rotate(0);
-}
-
-.list-menu li img{
-	border-radius:50% ;
-	width:120px;
-	height: 120px;
-}
-
-.list-menu li a:hover span{
-	opacity: 1;
-	transform: scale(1) rotate(360deg);
-}
-
-.clear{
-	clear: both;
+.menu1{
+	width:200px;
+	height: 250px;
+	background-color:white;
+	border-radius: 30px;
+	padding: 50px;
+	margin: 30px;
+	box-shadow: 1px 1px 1px;
+	margin-left: 100px;
 	
 }
 
-.kosong{
-	width: 200px;
-	height: 100px;
+.menu1 img{
+	width: 240px;
+	height: 220px;
+	margin-left: -20px;
+	margin-top: 5px;
 }
 
-.list-menu li  p{
+.menu1 .des-menu1{
+	margin: 5px;
+	margin-left: -30px;
 	padding: 5px;
-	align-self: center;
+}
+
+.menu1 .des-menu1 input{
+	width: 100px;
+	margin: 0 0 0 150px;;
+}
+
+.menu1  h3{
+	text-align: center;
+	margin-top: -30px;
+	font-size: 20px;
+}
+
+.kosong{
+	height: 100px;
+	
+}
+
+.menu{
+	display: flex;
+     margin: -50px 40px 40px -4 0px;
 }
 
 
