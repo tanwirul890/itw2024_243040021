@@ -189,12 +189,10 @@ nav a:nth-child(4):hover ~ span {
 
   .judul-utama input {
     position: absolute;
-    left: 503px;
-    opacity: 0;
+    left: 480px;
+    opacity: 1;
     top: 17px;
     z-index: 1;
-    width: 25px;
-    height: 30px;
   }
 }
 
