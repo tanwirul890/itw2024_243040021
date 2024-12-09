@@ -82,7 +82,11 @@ nav a:hover{
     display: grid;
     justify-items: center;
    text-align: center;
-    
+    transition: 0,8s;
+}
+
+.menu1:hover{
+    transform: scale(1.1);
 }
 
 .menu1 h3{
@@ -107,34 +111,6 @@ nav a:hover{
    width: 200px;
    background-color: green;
    color: white;
-}
-
-@media screen and (max-width: 576px) {
-
-    .conten h2{
-        font-size: 20px;
-    }
-    
-    .conten p{
-        font-size: 20px;
-        font-weight: bold;
-        color: black;
-    }
-
-    .judul-menu{
-        font-size: 20px;
-    }
-
-    .container{
-        background-image: url(/latihan/latihan\ 7/img/bagraund1.jpg);
-        height: 600px;
-        margin: 0;
-        background-position: -375px 0;
-    }
-
-    .menu{
-        grid-template-columns: 1fr ;
-    }
 }
 
 
@@ -163,5 +139,34 @@ nav a:hover{
 
     .menu{
         grid-template-columns: 1fr 1fr ;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+
+    .conten h2{
+        font-size: 20px;
+    }
+    
+    .conten p{
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+    }
+
+    .judul-menu{
+        font-size: 20px;
+    }
+
+    .container{
+        background-image: url(/latihan/latihan\ 7/img/bagraund1.jpg);
+        height: 600px;
+        margin: 0;
+        background-position: -375px 0;
+    }
+
+    .menu{
+        grid-template-columns: 1fr ;
     }
 }
