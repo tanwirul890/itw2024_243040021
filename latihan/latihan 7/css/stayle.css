@@ -43,11 +43,11 @@ nav a {
 }
 
 .togel {
-    display: none;
-    flex-direction: column;
-    height: 28px;
-    justify-content: space-between;
-  }
+  display: none;
+  flex-direction: column;
+  height: 28px;
+  justify-content: space-between;
+}
 
 .togel input {
   position: absolute;
@@ -81,20 +81,20 @@ nav a {
 }
 
 .togel span:nth-child(4) {
-    transform-origin: 0 100%;
-  }
-  
-  .togel input:checked ~ span:nth-child(2) {
-    transform: rotate(45deg) translate(1px, -5px);
-  }
-  
-  .togel input:checked ~ span:nth-child(3) {
-    transform: scale(0);
-  }
-  
-  .togel input:checked ~ span:nth-child(4) {
-    transform: rotate(-45deg) translate(8px, -5px);
-  }
+  transform-origin: 0 100%;
+}
+
+.togel input:checked ~ span:nth-child(2) {
+  transform: rotate(45deg) translate(1px, -5px);
+}
+
+.togel input:checked ~ span:nth-child(3) {
+  transform: scale(0);
+}
+
+.togel input:checked ~ span:nth-child(4) {
+  transform: rotate(-45deg) translate(8px, -5px);
+}
 
 nav a:hover {
   color: rgb(95, 51, 19);
@@ -194,18 +194,18 @@ nav a:hover {
     grid-template-columns: 1fr 1fr;
   }
 
-  .togel{
-  display: flex;
+  .togel {
+    display: flex;
   }
 
-  .togel span{
+  .togel span {
     left: 80px;
   }
-  nav{
+  nav {
     display: none;
   }
 
-   .menu2 {
+  .menu2 {
     display: flex;
     position: absolute;
     flex-direction: column;
@@ -220,18 +220,18 @@ nav a:hover {
     padding: 50px;
     text-align: center;
     box-shadow: 5px 6px 0 1px black;
-    
+
   }
+
 
   .menu2 li a {
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
-    color:black;
-    
+    color: black;
   }
 
-  .menu2 li:hover{
+  .menu2 li:hover {
     transform: scale(1.1);
     background-color: rgb(221, 249, 221);
   }
@@ -240,7 +240,7 @@ nav a:hover {
   .togel input:checked ~ .menu2 {
     top: 60px;
     transition: 1s;
-}
+  }
 
 }
 
@@ -270,19 +270,19 @@ nav a:hover {
     grid-template-columns: 1fr;
   }
 
-  .togel{
+  .togel {
     display: flex;
   }
 
-  .togel span{
+  .togel span {
     left: 49px;
   }
 
-  nav{
+  nav {
     display: none;
   }
 
-   .menu2 {
+  .menu2 {
     display: flex;
     position: absolute;
     flex-direction: column;
@@ -304,11 +304,10 @@ nav a:hover {
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
-    color:black;
-    
+    color: black;
   }
 
-  .menu2 li:hover{
+  .menu2 li:hover {
     transform: scale(1.1);
     background-color: rgb(221, 249, 221);
   }
@@ -317,5 +316,5 @@ nav a:hover {
   .togel input:checked ~ .menu2 {
     top: 60px;
     transition: 1s;
-}
+  }
 }
